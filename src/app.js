@@ -1,4 +1,4 @@
-// import 'bootstrap/js/bootstrap';
+import 'bootstrap/js/bootstrap';
 
 export class App {
   configureRouter(config, router){

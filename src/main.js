@@ -3,7 +3,6 @@ export function configure(aurelia) {
     .standardConfiguration()
     .developmentLogging()
     .plugin('aurelia-animator-css');
-  // debugger;
 
   aurelia.start().then(a => a.setRoot());
 }

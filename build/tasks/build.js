@@ -13,7 +13,7 @@ var assign = Object.assign || require('object.assign');
 // by errors from other gulp plugins
 // https://www.npmjs.com/package/gulp-plumber
 gulp.task('build-system', function () {
-  return gulp.src(paths.source)
+  return gulp.src([paths.source, '!src/lib/**/*.js'])
     .pipe(plumber())
     .pipe(changed(paths.output, {extension: '.js'}))
     .pipe(sourcemaps.init({loadMaps: true}))

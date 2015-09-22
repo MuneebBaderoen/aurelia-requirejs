@@ -7,7 +7,7 @@ export class Modal {
 
   get isVisible(){
   	// console.log('hey')
-  	// return this.router.isNavigating;
-  	return true;
+  	return this.router.isNavigating;
+  	// return true;
   }
 }

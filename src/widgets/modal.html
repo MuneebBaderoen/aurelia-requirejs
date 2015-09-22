@@ -1,6 +1,6 @@
 <template>
 	<require from="./modal.css"></require>
-    <div if.bind="isVisible">
+    <div if.bind="router.isNavigating">
         <p>this is a modal</p>
     </div>
 </template>

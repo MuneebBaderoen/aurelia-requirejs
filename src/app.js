@@ -1,3 +1,4 @@
+// import 'jQuery';
 import 'bootstrap/js/bootstrap';
 
 export class App {

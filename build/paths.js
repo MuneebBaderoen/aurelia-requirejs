@@ -8,6 +8,7 @@ module.exports = {
   source: appRoot + '/**/*.js',
   html: appRoot + '/**/*.html',
   css: appRoot + '/**/*.css',
+  less: appRoot + 'src/**/*.less',
   libs: appRoot + '/lib/**/*.js',
   fonts: appRoot + '/**/fonts/**/*',
 

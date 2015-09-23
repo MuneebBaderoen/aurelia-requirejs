@@ -29,6 +29,10 @@
     require(['lib/aurelia-bundle'], function(bundle) {
         require(['aurelia-bundle-manifest'], function(app) {
             System.import('aurelia-bootstrapper');
+            document.addEventListener('deviceready', function(){
+                alert('device is ready!');
+                console.log(device);
+            })
         })
     })
     </script>
